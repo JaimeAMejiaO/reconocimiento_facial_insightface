@@ -1,0 +1,18 @@
+# Ignorar entorno virtual y dependencias locales
+venv/
+__pycache__/
+
+# Ignorar modelos pesados
+models/*.onnx
+models/*.pth
+models/*.zip
+models/buffalo_l/
+
+# Archivos del sistema
+.DS_Store
+*.log
+*.tmp
+
+# Datos y logs de pruebas
+data/input/
+output/logs/

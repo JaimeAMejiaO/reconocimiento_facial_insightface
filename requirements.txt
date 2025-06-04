@@ -1,0 +1,19 @@
+# Requisitos del sistema de reconocimiento facial local
+insightface==0.7.3
+opencv-python
+numpy
+pillow
+torch
+scipy
+tk
+onnxruntime
+onnxruntime-gpu
+
+
+
+#pip install -r requirements.txt
+
+#Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+#python -m venv venv
+#.\venv\Scripts\activate
