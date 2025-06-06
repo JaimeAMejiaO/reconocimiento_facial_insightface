@@ -1,6 +1,6 @@
 # 🔐 Verificación de Identidad Mediante Inteligencia Artificial
 
-Este proyecto implementa un sistema **local** de verificación facial para validar la identidad de una persona comparando su rostro con la fotografía contenida en un documento de identidad (como una cédula o licencia). El sistema fue desarrollado como parte de un proyecto académico de maestría en Inteligencia Artificial, con proyección futura para su uso en campo real.
+Este proyecto implementa un sistema **local** de verificación facial para validar la identidad de una persona comparando su rostro con la fotografía contenida en un documento de identidad (Cualquier documento legal). El sistema fue desarrollado como parte de un proyecto académico de maestría, con proyección futura para su uso en campo real.
 
 ---
 
@@ -29,8 +29,25 @@ Este proyecto implementa un sistema **local** de verificación facial para valid
 | **Tkinter** | Interfaz gráfica local para pruebas |
 | **ONNX Runtime** | Motor de inferencia para el modelo ArcFace |
 | **Python** | Lenguaje de implementación principal |
+| **NVIDIA CUDA** | Toolkit para uso de GPU |
 
 ---
+
+💻 Requisitos de hardware y aceleración por GPU
+Este sistema fue diseñado para ejecutarse localmente aprovechando la aceleración por GPU, lo cual es altamente recomendado (aunque también puede ejecutarse con CPU a menor velocidad).
+
+⚠️ Para ejecutar el sistema con GPU (CUDA), es necesario tener:
+
+Una tarjeta gráfica NVIDIA compatible
+
+CUDA Toolkit (versión 12.x o superior)
+
+cuDNN correspondiente a la versión CUDA instalada
+
+Drivers NVIDIA actualizados
+
+La inferencia con onnxruntime y insightface aprovechará automáticamente la GPU si está correctamente configurada.
+Sin estos componentes, el sistema caerá automáticamente al modo CPUExecutionProvider, funcionando más lento.
 
 ## 🛠️ Estructura del proyecto
 

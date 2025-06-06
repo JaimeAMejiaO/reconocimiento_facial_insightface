@@ -9,7 +9,8 @@ Esta carpeta contiene (o debe contener) los modelos necesarios para ejecutar el 
 - **Función**: Extracción de embeddings para comparación facial.
 - **Formato**: ONNX
 - **Tamaño aproximado**: 255 MB
-- **Descarga directa**: [Google Drive - ArcFace ResNet100](https://drive.google.com/...) *(agrega el enlace cuando lo subas)*
+- **Descarga directa**: [Google Drive - ArcFace ResNet100](https://drive.usercontent.google.com/download?id=1Gh8C-bwl2B90RDrvKJkXafvZC3q4_H_z&export=download&authuser=0&confirm=t&uuid=5cb0c046-6164-46b6-885f-6a3be4f35e8e&at=ALoNOgnebXsS3dTBst7afzpM6Mm4%3A1747552104995 ) 
+
 
 🔹 **Ubicación esperada:**
 
@@ -21,7 +22,8 @@ Esta carpeta contiene (o debe contener) los modelos necesarios para ejecutar el 
 - **Función**: Detección de rostro y landmarks para alineamiento.
 - **Formato**: PyTorch `.pth`
 - **Tamaño aproximado**: 107 MB
-- **Descarga directa**: [Google Drive - RetinaFace ResNet50](https://drive.google.com/...) *(agrega el enlace cuando lo subas)*
+- **Descarga directa**: [Google Drive - RetinaFace ResNet50](https://drive.usercontent.google.com/download?id=14KX6VqF69MdSPk3Tr9PlDYbq7ArpdNUW&export=download&authuser=0&confirm=t&uuid=cde7ba9c-35cb-456e-b972-2c30a340ac9e&at=ALoNOgl0MPlPxSamVyEMfqZ1gpcs:1747551932148 ) 
+
 
 🔹 **Ubicación esperada:**
 
