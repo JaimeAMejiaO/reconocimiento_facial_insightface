@@ -30,6 +30,7 @@ Este proyecto implementa un sistema **local** de verificación facial para valid
 | **ONNX Runtime** | Motor de inferencia para el modelo ArcFace |
 | **Python** | Lenguaje de implementación principal |
 | **NVIDIA CUDA** | Toolkit para uso de GPU |
+| **Microsoft Visual C++ Build Tools ** | Ciertas dependencias requieren compilación de módulos en C++ | 
 
 ---
 
@@ -48,6 +49,8 @@ Drivers NVIDIA actualizados
 
 La inferencia con onnxruntime y insightface aprovechará automáticamente la GPU si está correctamente configurada.
 Sin estos componentes, el sistema caerá automáticamente al modo CPUExecutionProvider, funcionando más lento.
+
+---
 
 ## 🛠️ Estructura del proyecto
 
