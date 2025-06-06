@@ -52,6 +52,23 @@ Sin estos componentes, el sistema caerá automáticamente al modo CPUExecutionPr
 
 ---
 
+🔧 Microsoft Visual C++ Build Tools
+Algunas dependencias como insightface requieren compilación de módulos en C++.
+
+Para ello debes instalar:
+
+👉 Microsoft C++ Build Tools
+
+Durante la instalación, selecciona al menos:
+
+C++ build tools
+
+Windows 10 SDK (o superior)
+
+MSVC v14.x
+
+---
+
 ## 🛠️ Estructura del proyecto
 
 ```bash
